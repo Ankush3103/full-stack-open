@@ -1,0 +1,9 @@
+Solution for exercise 0.6
+
+Note over browser: spa.js fetches newly added data and sends a POST request.
+
+Browser->server
+	HTTP post https://studies.cs.helsinki.fi/examplepp/new_note_spa
+Server->browser
+	Status code:201 (created)
+

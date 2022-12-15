@@ -1,0 +1,24 @@
+Solution for exercise 0.5
+
+
+Browser->server
+	HTTP get https://studies.cs.helsinki.fi/examplepp/spa
+Server->browser
+	html code
+Browser->server
+	HTTP get https://studies.cs.helsinki.fi/examplepp/main.css
+Server->browser
+	css code
+Browser->server
+	HTTP get https://studies.cs.helsinki.fi/examplepp/spa.js
+Server->browser
+	js code
+
+NOTE: browser executes js code, and requests json data
+
+Browser->server
+	HTTP get https://studies.cs.helsinki.fi/examplepp/data.json
+Server->browser
+	[{content: "form content", date:"2021-09-30"]
+
+NOTE: browser executes event handler and displays the note.

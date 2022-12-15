@@ -1,0 +1,27 @@
+Solution for exercise 0.4
+
+Browser->server
+	HTTP post https://studies.cs.helsinki.fi/examplepp/new_note
+Server->browser
+	redirect https://studies.cs.helsinki.fi/examplepp/notes
+Browser->server
+	HTTP get https://studies.cs.helsinki.fi/examplepp/notes
+Server->browser
+	html code
+Browser->server
+	HTTP get https://studies.cs.helsinki.fi/examplepp/main.css
+Server->browser
+	css code
+Browser->server
+	HTTP get https://studies.cs.helsinki.fi/examplepp/main.js
+Server->browser
+	js code
+
+NOTE: browser executes js code, and requests json data
+
+Browser->server
+	HTTP get https://studies.cs.helsinki.fi/examplepp/data.json
+Server->browser
+	[{content: "form content", date:"2021-09-30"]
+
+NOTE: browser executes event handler and displays the note. This note is also added to data.json.
