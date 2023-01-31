@@ -2,4 +2,4 @@
 
 A repository with all notes, assignments, and projects completed for University of Helsinki's [full stack open course.](https://fullstackopen.com/en/)
 
-This repository was last updated on 15th December, 2022. I am currently going through part 1 of the course. 
+This repository was last updated on 1st February, 2023. I am currently working my way through part 2 of the course. 
